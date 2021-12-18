@@ -10,7 +10,7 @@ h1{
   display: block;
   padding-top: 50px;
 }
-.heading-highliter{
+.orange_highliter{
   color: orange;
 }
 .half-width{
@@ -55,3 +55,23 @@ h2{
   background-repeat: no-repeat;
   background-position: right;
 }
+.experience-area div{
+  box-shadow: 5px 7px 40px gray;
+  height: 80%;}
+#full-stack{
+    border-left: 4px solid;
+    border-image:linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+  }
+  #baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+  }
+  .experience-area{
+    background:url("images/exp-bg.png") no-repeat left;
+  }
+  footer p{
+    text-align: center;
+    font-size: 14px;
+  }
