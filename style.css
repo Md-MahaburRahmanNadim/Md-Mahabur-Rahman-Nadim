@@ -8,6 +8,7 @@ h1{
 }
 .Heading-down{
   display: block;
+  padding-top: 50px;
 }
 .heading-highliter{
   color: orange;
@@ -26,7 +27,7 @@ h1{
 section{
   height: 500px;
   /* border: 1px solid red;  for see what's going on there */
-
+  padding-bottom: 150px;
 }
 .top-banner{
   background-image: url("images/top-banner.png");
@@ -39,5 +40,18 @@ section{
   background: linear-gradient(45deg, lightsalmon, tomato);
   border-radius: 5px;
   font-weight: 700;
+  display: inline-block;
+  margin-top: 40px;
+}
+p{
+  color: dimgray;
+}
 
+h2{
+  font-size: 40px;
+}
+.dream-area{
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
