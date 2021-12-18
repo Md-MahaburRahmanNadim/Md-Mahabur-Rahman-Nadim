@@ -1,0 +1,31 @@
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  font-size: 50px;
+}
+.Heading-down{
+  display: block;
+}
+.heading-highliter{
+  color: orange;
+}
+.half-width{
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  /* float: left; */
+
+}
+.half-width img{
+  width: 100%; /* it's mean image joto boroe hok na kan it's takes it's section width. It's not takes it's full images dimations */
+
+}
+section{
+  height: 500px;
+
+}
+.top-banner{
+  background-image: url("/images/top-banner.png");
+}
